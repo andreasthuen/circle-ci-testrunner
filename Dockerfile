@@ -1,5 +1,4 @@
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS base
-#FROM node:17
 
 
 RUN apt-get update 
