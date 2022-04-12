@@ -5,6 +5,7 @@ RUN apt-get install -y curl
 RUN apt-get install -y jq 
 RUN apt-get install -y nodejs 
 RUN apt-get install -y npm
+RUN apt-get install -y libc-dev
 RUN npm install -g newman newman-reporter-junitfull	 
 
 
